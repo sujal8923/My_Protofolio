@@ -5,7 +5,7 @@ import React from 'react'
 function Contact() {
    
   return (
-    <div className='mt-10 text-center flex flex-col gap-6'>
+    <div className='mt-10 text-center flex flex-col gap-6 ' style={{overflowX:"hidden"}}>
         <motion.h1 
         whileInView={{opacity:1,y:0}}
         initial={{opacity:0,y:-100}}

@@ -24,7 +24,7 @@ function Technologies() {
     },
   });
   return (
-    <div className="border border-white">
+    <div className="border border-white" style={{overflowX:"hidden"}}>
       <div className="main pb-4 mt-28 border border-black">
         <motion.h1
          whileInView={{opacity:1,y:0}}
