@@ -6,12 +6,11 @@ function Experience() {
   return (
 
 
-    <div className="mt-28 border border-white  " style={{overflowX:"hidden"}}>
-      <motion.h1 
-      whileInView={{opacity:1,y:0}}
-      initial={{opacity:0,y:-100}}
-      transition={{duration:1.5}}
-      className="font-thin text-5xl text-center ">Experience</motion.h1>
+    <div className="mt-28   " style={{overflowX:"hidden"}}>
+    
+    <h1
+      
+        className="text-center text-4xl font-thin text-white">Experience</h1>
       {EXPERIENCES.map((Experience, index) => {
         return ( <div 
         className="mt-10"> 

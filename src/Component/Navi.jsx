@@ -7,7 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 function Navi() {
   return (
-    <Navbar className="text-neutral-300 overflow-x-hidden border border-white " style={{overflowX:"hidden"}}>
+    <Navbar className="text-neutral-300 overflow-x-hidden " style={{overflowX:"hidden"}}>
     <Container className='text-neutral-300' >
       <Navbar.Brand href="#home" className='text-white  font-bold font-sans  ' style={{fontSize:"50px"}}>Ֆ</Navbar.Brand>
       <Navbar.Toggle />

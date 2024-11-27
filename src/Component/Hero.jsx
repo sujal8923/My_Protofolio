@@ -14,7 +14,7 @@ visible:{
   })
   return (
     <div className="   flex flex-col md:flex-row justify-around ">
-      <div className="border border-white w-full flex flex-col justify-center gap-2 p-4 md:w-1/2 md:p-0">
+      <div className=" w-full flex flex-col justify-center gap-2 p-4 md:w-1/2 md:p-0">
         <motion.h1
         variants = {container(0.2)}
         initial = 'hidden'
@@ -37,15 +37,12 @@ visible:{
          animate = "visible"
         className="font-serif font-extralight p-1">{HERO_CONTENT}</motion.p>
       </div>
-      <div className=" border border-white w-2/2 md:w-[43%]">
+      <div className="  w-2/2 md:w-[43%]">
         <div className="">
           <motion.img 
           initial={{x:100,opacity:0}}
           animate = {{x:0,opacity:1}}
           transition={{duration:1,delay:1.3}}
-
-          
-          
           src={profilePic} style={{borderRadius:"80%",opacity:"0.9"}} className=" mt-11 img-fluid p-5 md:p-0 " alt="" />
         </div>
       </div>
