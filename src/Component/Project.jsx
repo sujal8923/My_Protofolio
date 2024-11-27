@@ -10,7 +10,7 @@ import { motion } from 'framer-motion';
 
 function Project() {
   return (
-    <div className='mt-20 p-4 md:p-0'>
+    <div className='mt-20 p-4 md:p-0 border border-white'>
       <motion.h1 
        whileInView={{opacity:1,y:0}}
        initial={{opacity:0,y:-100}}

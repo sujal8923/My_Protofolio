@@ -6,7 +6,7 @@ function Experience() {
   return (
 
 
-    <div className="mt-28  ">
+    <div className="mt-28 border border-white  ">
       <motion.h1 
       whileInView={{opacity:1,y:0}}
       initial={{opacity:0,y:-100}}

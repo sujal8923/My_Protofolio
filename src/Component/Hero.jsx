@@ -14,7 +14,7 @@ visible:{
 }
   })
   return (
-    <div className=" flex justify-center  items-center flex-wrap">
+    <div className=" flex justify-center  items-center flex-wrap border border-red">
       <div className="  w-full lg:w-1/2 flex flex-col justify-center gap-2 p-5 lg:p-0">
         <motion.h1
         variants = {container(0.2)}

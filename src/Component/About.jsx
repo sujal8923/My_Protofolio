@@ -5,8 +5,8 @@ import { ABOUT_TEXT } from "../constants";
 
 function About() {
   return (
-    <div className=''>
-        <div className="main    mt-7 p-3 md:p-10">
+    <div className='border border-white'>
+        <div className="main    mt-7 p-3 md:p-10 ">
 <h1 className='text-center font-thin text-5xl font-serif'>About <span className='text-neutral-500'>Me</span></h1>
 <div className='flex flex-wrap  justify-items-evenly  items-center  mt-28 '>
 <motion.div 
