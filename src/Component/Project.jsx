@@ -10,7 +10,7 @@ import { motion } from 'framer-motion';
 
 function Project() {
   return (
-    <div className='mt-20'>
+    <div className='mt-20 p-4 md:p-0'>
       <motion.h1 
        whileInView={{opacity:1,y:0}}
        initial={{opacity:0,y:-100}}
@@ -23,14 +23,14 @@ function Project() {
         whileInView={{opacity:1,x:0}}
         initial={{opacity:0,x:-100}}
         transition={{duration:1}}  
-        className='w-full lg:w-1/2  flex flex-col gap-40'>
+        className='w-full lg:w-1/2  flex flex-col gap-36'>
           <motion.div
           whileInView={{opacity:1,x:0}}
           initial={{opacity:0,x:-100}}
           transition={{duration:1}}  
           
           className='img-fluid mx-auto'>
-            <img src={hero} className='img-fluid w-96 rounded-md' alt='' />
+            <img src={hero} className='img-fluid w-[500px]  rounded-md' alt='' />
           </motion.div>
           <motion.div 
           whileInView={{opacity:1,x:0}}
@@ -38,14 +38,14 @@ function Project() {
           transition={{duration:1}}
           
           className='img-fluid mx-auto'>
-            <img src={hero1} className='w-96 rounded-md' alt='' />
+            <img src={hero1} className='  w-[500px] rounded-md' alt='' />
           </motion.div>
           <motion.div
           whileInView={{opacity:1,x:0}}
           initial={{opacity:0,x:-100}}
           transition={{duration:1}} 
-          className='img-fluid mx-auto'>
-            <img src='https://static1.anpoimages.com/wordpress/wp-content/uploads/2020/02/youtube-generic-hero.png' className='w-96 rounded-md' alt='' />
+          className='img-fluid mx-auto '>
+            <img src='https://static1.anpoimages.com/wordpress/wp-content/uploads/2020/02/youtube-generic-hero.png' className='   w-[500px] rounded-md' alt='' />
           </motion.div>
         </motion.div>
         <motion.div 

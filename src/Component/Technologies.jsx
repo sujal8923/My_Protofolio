@@ -25,7 +25,7 @@ function Technologies() {
   });
   return (
     <div>
-      <div className="main pb-4 mt-28">
+      <div className="main pb-4 mt-28 border border-black">
         <motion.h1
          whileInView={{opacity:1,y:0}}
          initial={{opacity:0,y:-100}}
