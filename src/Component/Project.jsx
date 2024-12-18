@@ -39,18 +39,7 @@ function Project() {
           >
             <img src={hero1} className="  w-[500px] rounded-md" alt="" />
           </motion.div>
-          <motion.div
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: -100 }}
-            transition={{ duration: 1 }}
-            className="img-fluid mx-auto "
-          >
-            <img
-              src="https://static1.anpoimages.com/wordpress/wp-content/uploads/2020/02/youtube-generic-hero.png"
-              className="   w-[500px] rounded-md"
-              alt=""
-            />
-          </motion.div>
+         
         </motion.div>
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}

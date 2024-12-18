@@ -22,12 +22,21 @@ Let’s create something amazing together!.`;
 export const EXPERIENCES = [
   {
     id:1,
-    year: "10/06/2024 - Present",
-    role: "Frontend Developer",
-    company: "Graviton web technologies software Company [Banglore]",
-    description: `Currently, I am enrolled in a Full Stack Development course at [Graviton  web technologies]. As part of this program, I have successfully completed the front-end module as well as completed  frontend devloper internship from this institute, where I gained hands-on experience in HTML, CSS, JavaScript, React.js, and Redux. During my training, I contributed to several projects that enhanced my skills in creating responsive and user-friendly web applications. This experience has solidified my understanding of front-end technologies and their role in building seamless user experiences.`,
+    year: "Dec 2024 – Jan 2025",
+    role: "Frontend Developer Intern",
+    company: "Cognifyz Technologies Company (Nagpur)",
+    description: `Working as a Frontend Developer Intern, I contribute to building responsive web applications using HTML, CSS, JavaScript, and React.js. I collaborate with the team to implement features, optimize performance, and enhance user experience in a real-world development environment.`,
+    technologies: ["HTML",  "CSS",  "JS",  "react js", "Redux", "Talwind css", "Bootstrap","Firebase"],
+  },
+  {
+    id:2,
+    year: "10/06/2024 - 10/12/2024",
+    role: "Frontend Developer (Training)",
+    company: "Graviton web technologies software Company [Bangalore]",
+    description: `• Completed comprehensive training in frontend technologies, focusing on building dynamic websites and web applications. • Developed hands-on projects to improve skills in HTML, CSS, JavaScript, and React. • Learned best practices for clean code, responsive design, and web performance optimization.`,
     technologies: ["HTML",  "CSS",  "JS",  "react js", "Redux", "Talwind css", "Bootstrap","Firebase"],
   }
+
   
 ];
 
@@ -46,22 +55,7 @@ export const PROJECTS = [
     description:"Blog Website (React, Firebase, Redux Toolkit, Tailwind CSSIn this project, I developed a dynamic and fully functional blog website using React.js, Firebase, Redux Toolkit, and Tailwind CSS. The application allows users to:View Latest Blog Posts: Stay updated with the most recent blog entries.Create New Posts: Users can create new blog posts easily through a simple and intuitive interface.Edit Existing Posts: The website supports editing blog posts, enabling content management.Real-time Data: Powered by Firebase, all blog posts are stored and retrieved from a real-time database, ensuring that updates are reflected instantly.State Management: Used Redux Toolkit for efficient state management, ensuring smooth data flow across the application.",
       technologies: ["HTML", "CSS", "React", "Talwind css","Redux","Firebase"],
     link:"https://first-972a9.web.app/"
-  },
-  {
-    title: "Youtube app",
-   
-    description:
-      `I recently developed a YouTube web app using React JS and Tailwind CSS, showcasing my skills in
-- Front-end development
-- UI/UX design
-- JavaScript expertise
-- CSS mastery
-
-This project demonstrates my ability to create responsive, user-friendly, and visually appealing applications that mimic popular platforms like YouTube.`,
-    technologies: ["HTML", "CSS", "React", "Bootstrap","frame motion"],
-    link:"https://youtube-web-orcin.vercel.app/"
   }
- 
 ];
 
 export const CONTACT = {
