@@ -2,7 +2,6 @@ import React from "react";
 import { PROJECTS } from "../constants";
 import hero from "../assets/projects/hero.png";
 import hero1 from "../assets/projects/hero2.png";
-
 // import Ecom from '../assets/projects/project2.jpeg';
 import YT from "../assets/projects/project3.jpeg";
 import { motion } from "framer-motion";
@@ -10,7 +9,7 @@ import { motion } from "framer-motion";
 
 function Project() {
   return (
-    <div className="mt-20 p-4 md:p-0 " style={{ overflowX: "hidden" }}>
+    <div className="mt-20 p-4 md:p-0 " style={{ overflowX: "hidden" }} id="project">
       <h1 className="text-center font-thin text-5xl pb-4">Projects</h1>
       <div className="flex flex-wrap justify-center align-items-center">
         <motion.div

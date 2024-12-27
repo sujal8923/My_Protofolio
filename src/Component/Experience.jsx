@@ -6,10 +6,9 @@ function Experience() {
   return (
 
 
-    <div className="mt-28   " style={{overflowX:"hidden"}}>
+    <div className="mt-28   " style={{overflowX:"hidden"}} id="experience">
     
     <h1
-      
         className="text-center text-4xl font-thin text-white">Experience</h1>
       {EXPERIENCES.map((Experience, index) => {
         return ( <div 
