@@ -1,9 +1,9 @@
 import React from "react";
 import { PROJECTS } from "../constants";
 import hero from "../assets/projects/hero.png";
-import hero1 from "../assets/projects/hero2.png";
+import hero1 from "../assets/Project.png";
 // import Ecom from '../assets/projects/project2.jpeg';
-import YT from "../assets/projects/project3.jpeg";
+// import YT from "../assets/projects/project3.jpeg";
 import { motion } from "framer-motion";
 // import { motion } from 'framer-motion';
 

@@ -1,14 +1,13 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb, SiRedux, SiTailwindcss } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
+import { SiMongodb, SiRedux, SiTailwindcss, SiSpring } from "react-icons/si";
+import { DiRedis, DiJava } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import { motion } from "framer-motion";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import { IoLogoFirebase } from "react-icons/io5";
-<FaReact />;
 
 function Technologies() {
   const iconVariant = (duration) => ({
@@ -23,28 +22,34 @@ function Technologies() {
       },
     },
   });
+
   return (
-    <div className="" style={{overflowX:"hidden"}}>
+    <div style={{ overflowX: "hidden" }}>
       <div className="main pb-4 mt-28 border border-black">
         <motion.h1
-         whileInView={{opacity:1,y:0}}
-         initial={{opacity:0,y:-100}}
-         transition={{duration:1.5}}
-        
-        className="text-center text-4xl font-thin">Technologies</motion.h1>
-        <motion.div 
-        whileInView={{opacity:1,x:0}}
-        initial={{opacity:0,x:-100}}
-        transition={{duration:1.5}}
-        className=" mt-5 flex flex-wrap align-items-center justify-center gap-4 ">
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -100 }}
+          transition={{ duration: 1.5 }}
+          className="text-center text-4xl font-thin"
+        >
+          Technologies
+        </motion.h1>
+
+        <motion.div
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: -100 }}
+          transition={{ duration: 1.5 }}
+          className="mt-5 flex flex-wrap align-items-center justify-center gap-4"
+        >
           <motion.div
             variants={iconVariant(2.5)}
             initial="initial"
             animate="animate"
-            className="rounded-lg border-4 border-neutral-800 text-8xl p-2 p-2"
+            className="rounded-lg border-4 border-neutral-800 text-8xl p-2"
           >
             <FaReact className="text-cyan-400 shadow-lg" />
           </motion.div>
+
           <motion.div
             variants={iconVariant(2.5)}
             initial="initial"
@@ -53,15 +58,16 @@ function Technologies() {
           >
             <AiOutlineHtml5 />
           </motion.div>
+
           <motion.div
             variants={iconVariant(6)}
             initial="initial"
             animate="animate"
             className="rounded-lg border-4 border-neutral-800 text-8xl p-2"
           >
-            {/* <SiMongodb className="text-green-500 shadow-lg" /> */}
-            <IoLogoFirebase className="text-green-500" />
+            <IoLogoFirebase className="text-yellow-500" />
           </motion.div>
+
           <motion.div
             variants={iconVariant(4)}
             initial="initial"
@@ -70,6 +76,7 @@ function Technologies() {
           >
             <SiRedux className="text-red-700 shadow-lg" />
           </motion.div>
+
           <motion.div
             variants={iconVariant(2.5)}
             initial="initial"
@@ -78,6 +85,7 @@ function Technologies() {
           >
             <SiTailwindcss className="text-blue-500 shadow-lg" />
           </motion.div>
+
           <motion.div
             variants={iconVariant(2.5)}
             initial="initial"
@@ -85,6 +93,26 @@ function Technologies() {
             className="rounded-lg border-4 border-neutral-800 text-8xl p-2"
           >
             <TbBrandJavascript className="text-yellow-300 shadow-lg" />
+          </motion.div>
+
+          {/* ✅ Java Icon */}
+          <motion.div
+            variants={iconVariant(2.5)}
+            initial="initial"
+            animate="animate"
+            className="rounded-lg border-4 border-neutral-800 text-8xl p-2"
+          >
+            <DiJava className="text-orange-600 shadow-lg" />
+          </motion.div>
+
+          {/* ✅ Spring Boot Icon */}
+          <motion.div
+            variants={iconVariant(2.5)}
+            initial="initial"
+            animate="animate"
+            className="rounded-lg border-4 border-neutral-800 text-8xl p-2"
+          >
+            <SiSpring className="text-green-600 shadow-lg" />
           </motion.div>
         </motion.div>
       </div>

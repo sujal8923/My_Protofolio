@@ -3,42 +3,41 @@
 
 export const HERO_CONTENT = `
 
-As a passionate front-end web developer, I am dedicated to creating engaging and responsive user interfaces. Currently pursuing a B.Tech in Computer Science, I am in  third year , where I have honed my skills in HTML, CSS, JavaScript, React.js, Redux, Bootstrap, and Tailwind CSS.
+A passionate and self-driven Software Developer with hands-on experience in both frontend and backend development.
+Skilled in creating responsive and user-friendly interfaces using React.js, HTML, and CSS, and building robust backend
+systems with Java, Spring Boot, and MySQL. Strong interest in developing practical solutions to real-world problems
+and contributing to collaborative, tech-driven environments.`;
 
-I thrive on transforming ideas into functional and aesthetically pleasing web applications. With a strong foundation in front-end technologies and a keen eye for detail, I am eager to contribute to innovative projects and continuously expand my knowledge in the ever-evolving tech landscape.
+export const ABOUT_TEXT = `Hello! I’m Sujal, a full-stack web developer with a strong passion for building scalable, intuitive, and dynamic user experiences. I’m currently pursuing a B.Tech in Computer Science and am in my final year.
 
-Let's connect and explore how I can bring your vision to life!.`;
+My journey into web development began with curiosity about how websites and applications work — and over time, it has evolved into a deep interest in creating end-to-end solutions. I specialize in both frontend and backend technologies, allowing me to build complete, responsive, and robust applications from scratch.
 
-export const ABOUT_TEXT = `Hello! I’m Sujal, a front-end web developer with a passion for crafting intuitive and dynamic user experiences. Currently, I’m pursuing a B.Tech in Computer Science and I  am in third year.
+On the frontend, I work with HTML, CSS, JavaScript, React.js, Redux, Bootstrap, and Tailwind CSS to craft clean, modern UIs. On the backend, I use Java with Spring Boot to build RESTful APIs, handle authentication and authorization, and manage relational databases like MySQL. I believe in writing clean, maintainable code and ensuring seamless communication between frontend and backend systems.
 
-My journey into web development began with a curiosity for how websites are built, and that curiosity has transformed into a commitment to creating beautiful, responsive designs. I specialize in technologies like HTML, CSS, JavaScript, React.js, Redux, Bootstrap, and Tailwind CSS, and I’m always eager to learn more.
+Whether it’s building a simple landing page or a full-stack web app, I strive to deliver solutions that are both user-centric and performance-optimized. I’m also enthusiastic about learning new tools, participating in hackathons, contributing to open-source projects, and staying up to date with industry trends.
 
-I believe that great web design combines functionality with creativity, and I strive to achieve that in every project I undertake. Whether it's building a simple landing page or a complex application, I aim to deliver solutions that are not only visually appealing but also user-friendly.
-
-When I’m not coding, you can find me exploring the latest tech trends, participating in coding challenges, or collaborating on open-source projects. I’m excited about the future of web development and look forward to connecting with like-minded individuals.
-
-Let’s create something amazing together!.`;
+Let’s connect and create something impactful together!
+.`;
 
 export const EXPERIENCES = [
   {
-    id:1,
-    year: "Dec 2024 – Jan 2025",
-    role: "Frontend Developer Intern",
-    company: "Cognifyz Technologies Company (Nagpur)",
-    description: `Working as a Frontend Developer Intern, I contribute to building responsive web applications using HTML, CSS, JavaScript, and React.js. I collaborate with the team to implement features, optimize performance, and enhance user experience in a real-world development environment.`,
-    technologies: ["HTML",  "CSS",  "JS",  "react js", "Redux", "Talwind css", "Bootstrap","Firebase"],
+    id: 1,
+    year: "June 2025 – July 2025",
+    role: "Software Developer Intern",
+    company: "IMCS Group (On-site, Aligarh)",
+    description: `Completed a 45-day structured internship focused on full-stack Java development. Co-developed EventFlow, an internal event management system for company operations. Engineered secure role-based login using Spring Security for SuperAdmin, Admin, and User access levels. Built dynamic UIs with React.js and Tailwind CSS, following mobile-first responsive design. Developed and tested RESTful APIs, integrating them with MySQL for seamless data management.`,
+    technologies: ["Java", "Spring Boot", "Spring Security", "MySQL", "React.js", "Tailwind CSS"]
   },
   {
-    id:2,
-    year: "10/06/2024 - 10/12/2024",
-    role: "Frontend Developer (Training)",
-    company: "Graviton web technologies software Company [Bangalore]",
-    description: `• Completed comprehensive training in frontend technologies, focusing on building dynamic websites and web applications. • Developed hands-on projects to improve skills in HTML, CSS, JavaScript, and React. • Learned best practices for clean code, responsive design, and web performance optimization.`,
-    technologies: ["HTML",  "CSS",  "JS",  "react js", "Redux", "Talwind css", "Bootstrap","Firebase"],
+    id: 2,
+    year: "July 2025 – Present",
+    role: "Tech & Outreach Lead",
+    company: "HackLoop",
+    description: `Led outreach for a national-level student hackathon with 500+ participants and 20+ institutional partners. Resolved website UI/UX bugs and supported platform testing and deployment cycles. Built and managed sponsorship decks, leading to successful collaborations with multiple organizations.`,
+    technologies: ["React.js", "Figma", "Firebase", "Git", "Google Docs"]
   }
-
-  
 ];
+
 
 export const PROJECTS = [
   {
@@ -49,13 +48,15 @@ export const PROJECTS = [
     technologies: [ , "React", "Talwind css", "HTML","Redux Tool Kit","Firebase"],
     link:"https://ecommerceapp-cfb49.web.app/"
   },
-  {
-    title: "React Blog Porject",
-    
-    description:"Blog Website (React, Firebase, Redux Toolkit, Tailwind CSSIn this project, I developed a dynamic and fully functional blog website using React.js, Firebase, Redux Toolkit, and Tailwind CSS. The application allows users to:View Latest Blog Posts: Stay updated with the most recent blog entries.Create New Posts: Users can create new blog posts easily through a simple and intuitive interface.Edit Existing Posts: The website supports editing blog posts, enabling content management.Real-time Data: Powered by Firebase, all blog posts are stored and retrieved from a real-time database, ensuring that updates are reflected instantly.State Management: Used Redux Toolkit for efficient state management, ensuring smooth data flow across the application.",
-      technologies: ["HTML", "CSS", "React", "Talwind css","Redux","Firebase"],
-    link:"https://first-972a9.web.app/"
-  }
+  
+    {
+  title: "EventFlow – Full-Stack Event Management System",
+  description: "Developed as part of my internship at IMCS Group, EventFlow is a full-stack event management platform tailored for internal operations. The system supports secure, role-based access for SuperAdmin, Admin, and User roles. Features include event creation, registration handling, and user management. Emphasis was placed on modular design and secure authentication using Spring Security.",
+  technologies: ["React.js", "Tailwind CSS", "Java", "Spring Boot", "Spring Security", "MySQL"],
+  link: "https://github.com/sujal8923/EventsManagement" // Replace with actual link if deployed or hosted
+}
+
+  
 ];
 
 export const CONTACT = {

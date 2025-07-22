@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutPic from "../assets/Me.jpg";
+import AboutPic from "../assets/Mes.jpg";
 import { motion } from 'framer-motion';
 import { ABOUT_TEXT } from "../constants";
 
@@ -14,7 +14,9 @@ whileInView={{opacity:1,x:0}}
 initial={{opacity:0,x:-100}}
 transition={{duration:0.5}}
 className='w-full   lg:w-1/2     '>
-<img src={AboutPic} className='w-2/3 m-auto rounded-lg shadow-lg h-[85vh] object-contain' alt="" />
+<img src={AboutPic} className='w-1/2 m-auto rounded-lg shadow-xl  object-contain 
+             bg-neutral-900 p-2 border border-neutral-700' 
+ alt="" />
 </motion.div>
 <motion.div 
 whileInView={{opacity:1,x:0}}

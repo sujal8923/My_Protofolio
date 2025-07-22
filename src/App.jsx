@@ -6,6 +6,7 @@ import Technologies from "./Component/Technologies";
 import Experience from "./Component/Experience";
 import Project from "./Component/Project";
 import Contact from "./Component/Contact";
+import MovingText from "./Component/MovingText";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           style={{ overflowX: "hidden" }} // Added overflowY: hidden
         >
           <Navi className="border border-black" />
+          <MovingText/>
           <Hero />
           <About />
           <Technologies />

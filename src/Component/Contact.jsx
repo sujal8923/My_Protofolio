@@ -21,7 +21,7 @@ function Contact() {
         initial={{opacity:0,x:100}}
         transition={{duration:1}}  
         >9870973383</motion.p>
-        <motion.p>Sujalroy1822@gmail.com</motion.p>
+        <motion.p>sujalroy1822@gmail.com</motion.p>
     </div>
   )
 }
